@@ -9,4 +9,4 @@ The Spring Boot version is 3.3.4 using Java 23. All updates to this repository w
 
 ## Updates
 - [X] Oct, 20, 2024: Configure Spring Boot Application
-- [ ] Oct, 21, 2024: Configure View Template Engine
+- [X] Oct, 22, 2024: Configure View Template Engine
