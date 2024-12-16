@@ -7,7 +7,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class MemberServiceTest {
 
@@ -28,7 +28,7 @@ class MemberServiceTest {
     }
 
     @Test
-    void join() {
+    void Join_new_users_into_dedicated_repository() {
         // given
         Member member = new Member();
         member.setName("Hello");
